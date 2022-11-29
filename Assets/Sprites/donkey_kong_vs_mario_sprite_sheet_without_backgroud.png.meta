@@ -1,0 +1,3337 @@
+fileFormatVersion: 2
+guid: 39f5a574ec114da4ead80ddaa3871541
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1097
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45095e39c35bfed4db97f5da89f96c0b
+      internalID: -2017917831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1097
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24285e191e280984da30993ca32ea8f2
+      internalID: -2107165424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1097
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66832af152ebd6d4fab3575d2640918e
+      internalID: -1030351294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1097
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c5e1635e08bf4eb3411ecc5d78863
+      internalID: -333744741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1097
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e54ff3741bdcdb4a936f8d3f534b1a1
+      internalID: -166975274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1099
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e69858622c32a4e9a2442e75669456
+      internalID: 1133302326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_6
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1097
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cf49eb7f6c5254a87918c539488773
+      internalID: 880678408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_7
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1097
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f4e53ca00bb4d4c9f2905349250c2a
+      internalID: 2123563457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_8
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1097
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2242b1646b612dc438e5c58df7917c91
+      internalID: -87218324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_9
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1097
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e89e223ef6dd3246a620ca26b02d2c5
+      internalID: -220714858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1097
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be084f6d3dd88ab43a3c4a11add58906
+      internalID: 474653241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_11
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1097
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033eacd9c54a8114e8b342d67324e3e6
+      internalID: -379156419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1097
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49654f7abb5b5e4ab3989e455cf3b2e
+      internalID: 1350619601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_13
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1097
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedd5428a66fc9d4cb6ff5f1ecc7ff26
+      internalID: -1983991926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1097
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1773405c575bce14692ac072f35c22db
+      internalID: -49957607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_15
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1099
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29622a93dcafb484d94f5a2ebf1d3b02
+      internalID: 1637875669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_16
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1097
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6799882ec6ea67409a10d8bfa8b2eb2
+      internalID: -679223904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_17
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1097
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad14d4ba68256a442a0a91e5e395a04e
+      internalID: -1900082736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1021
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c4d56966d66784da104513f9223199
+      internalID: 798016362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1021
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df37b5a9b31b6b34c8fec2a40b455c4b
+      internalID: -85867442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_20
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1021
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ebd80e2e8c4f43943070eb433c95d
+      internalID: -907379403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1021
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc474a91d2543048b4722db848c7bc0
+      internalID: 983734647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_22
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1021
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7475dffd9b6ba8c458c9ca907a926975
+      internalID: -1757451372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_23
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1021
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5760160536a34c94c8f1754d08bdd403
+      internalID: -1442649426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 939
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107b2381bb3858944a6287ccb8e8da2e
+      internalID: 1556338393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_25
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 939
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c772b8f135fdd6e4f91102727df73efa
+      internalID: 1061311947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_26
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 939
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c35a29ec0f20024d8a746d22b357bb0
+      internalID: -348059940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_27
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 939
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4420901a58e2ef445b39a9b294967d01
+      internalID: -632964063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 939
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c70825996666d41b4cfd113d4aaf46
+      internalID: 1566306567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_29
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 939
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedfef26ff08cea4ea768fd3bfd827a7
+      internalID: 68711182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 855
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368c8b540bf8eec499caada191900491
+      internalID: 869173683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 865
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193e1078b5a665949b7cdad9712a0e93
+      internalID: -2125248100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_32
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 855
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877cac131bc8833418edf4a1771d3bc8
+      internalID: 2102421491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_33
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 863
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55447989fff8cde4f8111c5fd6d3feb5
+      internalID: 430865384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 849
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afc4f9cb2482ff4cb1ba6417ea3196f
+      internalID: 916454657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_35
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 849
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc356a63cf21af46a050707699264f9
+      internalID: 1083958642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_36
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 855
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a309d04b81679944aa21593bc15aad8c
+      internalID: -1136068684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 733
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae10b072b9882040bc502cc42f41276
+      internalID: 860723306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_38
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 733
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d114b836f543a7544bdc20ec95008f04
+      internalID: 71486795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_39
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 733
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c60fcd66cb2044ae273c798f69a00
+      internalID: 1529785060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_40
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 733
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bd6a1b2903cb448a5b5a5284fba507
+      internalID: 947779862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 733
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb995f2fee64e74eaf4ed4ec599b169
+      internalID: -734005638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_42
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 733
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d493f49c221c62f45bb05a317907bf61
+      internalID: -484589275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_43
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 627
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd00408bf032794ca949954c0b6f807
+      internalID: 1988353727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_44
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 627
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e119649f8ee52e47ba329882c12dd78
+      internalID: -724202114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_45
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 627
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ec0e19976f4f340b3866c9cf1fe8bf
+      internalID: -66180955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_46
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 627
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0327f2cef40e422488b7f459baf1164c
+      internalID: -1763107116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_47
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 438
+        width: 302
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b8ebbb7754a9b4fb9534558c29d220
+      internalID: -1724772602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_48
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 543
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40f0d4ff54b2984a8f492a465ad61ed
+      internalID: 1548608641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_49
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 543
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a269ae3dd197e46a7bbbe2b9a2cff9
+      internalID: 1888419811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 449
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038fc6fe18881b14cb38ef98765fd2c8
+      internalID: 1201647850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_51
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 449
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751d44759d1294048adee9652d59d542
+      internalID: -434494616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 325
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d72e3c2fe0c0db4d998c84cdb1a0812
+      internalID: 1744762326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 383
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e04776c20f1e942850a301319f3f4b
+      internalID: -1930996032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_54
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 325
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f70763b315c8948bb91a1b23b04b21
+      internalID: 1636566455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_55
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 325
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0132812b1c9e154aa76b8c4ac25d4a4
+      internalID: -708205984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_56
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 381
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae30cb7743df1e74caf6088caebde4ec
+      internalID: -494771424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_57
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 385
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b63ace0b8e7d244af0fb10af5f6ccb
+      internalID: -1643741384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_58
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 329
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b28feec4290fd418ee7c96724aae5d
+      internalID: -1566165206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_59
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 325
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5fb3df73afa364c9a4bd234b7efb3d
+      internalID: 399189694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_60
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 381
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bb6d3f6b95aa943bf73564d110b1e5
+      internalID: -416966243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 377
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cd5e25a255d9846b56a47bfb9e7ff5
+      internalID: -2022947549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_62
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b95b92f078e5ff4292c55f09900cd07
+      internalID: 15747147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_63
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 329
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f903a800649c148ae3023bc97386fc
+      internalID: -413353612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_64
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 335
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b02e9a2ee6f3384789f6fbc1ac858c9
+      internalID: -1222648037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_65
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 335
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a50121dd530dda4891724d6341f5189
+      internalID: 328975667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_66
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 335
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f16099bb4e8f4883c966a799f22ff
+      internalID: 1529333274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_67
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 335
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd19ddd8f2a1af46ba858b0727ae96b
+      internalID: -1112541882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_68
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 335
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aecb89dce5e705429b4f031438408b2
+      internalID: 1387529389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_69
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 335
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0fe86eb3a06ce4a9e4b3f379489b31
+      internalID: -463181612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 265
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e1e7c3fa23674478e73f9bbb3af57d
+      internalID: -353252522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_71
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 265
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbe244aa9e4c4748b2ec311643ca0f0
+      internalID: 1028845498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_72
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 265
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397e6de333a87fc468fcbedcf71f4bca
+      internalID: 2821557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_73
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 265
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cab688567e3424da3d39236ade2760
+      internalID: -1073084691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 265
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794e5bfa5dde1ec43bb11dad63b5fa93
+      internalID: -730220057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_75
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 265
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48d3611b53e24e42b86adf34bea0a6c
+      internalID: -375869505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_76
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 265
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c22fde06e6aaa4fb3e9bdf95c7f87c
+      internalID: 1184535567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_77
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 265
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59d837990b905b469a7d2358824cc49
+      internalID: -629663392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_78
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 275
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06d02e907fc0824785a5757772c8ee4
+      internalID: -298884094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_79
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 275
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f278d5113886554daef4130decc5fab
+      internalID: -578768307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_80
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 277
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58608ef3e64951b4088777e38863e2b7
+      internalID: 1478194959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_81
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81835717db182347b5d1fd93cef5555
+      internalID: -196535215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_82
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 275
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e170794f5d400f4c9559e1a7602cb0e
+      internalID: 886070700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_83
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 275
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b76b831919e14a4887ad35351b8f8d5
+      internalID: 1350590387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_84
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 275
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7761ae5f288f5914390d39ee859f20f7
+      internalID: -1075590026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_85
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 213
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ce378dcb4ecb489ecb3116145b1bd
+      internalID: -1247925845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_86
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 239
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fcf31d37392e47b52f1ea45511d8b
+      internalID: 1915210808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 213
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a34f1081703a2f43a9c16d4f074530d
+      internalID: -1986663306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_88
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 213
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f380ddff259afed4cb2fa634ed18027a
+      internalID: 600404547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_89
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 237
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5561c19e06d366e43a6b2c69eec0244c
+      internalID: -1496642392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_90
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 241
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0f7e50b6f570b4e83ad3a5fbaf2554
+      internalID: 670027326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_91
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 213
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0abefda584ed64799d59fc8b35fa3d
+      internalID: 1169957612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_92
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 237
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241d24150d2330343b96069791d6007d
+      internalID: -1151899292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_93
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 219
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b9f20cd8450064295519fc23479abf
+      internalID: 1011411651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_94
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 219
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cb7d0f41c3fd54f8f2ba7979a453a8
+      internalID: -1471797831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_95
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 219
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5815ae0e3f40d4641a6e95897f1eb70f
+      internalID: 626247640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_96
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 219
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcb8895d43b7fe408214339bd27a686
+      internalID: -1766779089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_97
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 233
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57fc2e71e7ceb94b9f1523c70914a49
+      internalID: 277882957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_98
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 171
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a10c231a3c7aff478470cc563d16c74
+      internalID: -2075645324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_99
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 173
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d77da40ae72444a43d75b497d54fa
+      internalID: -462310063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_100
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 173
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce7508a4991a63458688219883d6553
+      internalID: 891907295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_101
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 167
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e5c57606b492742968597f9e684306
+      internalID: 272596329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_102
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 169
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d6c3448ec5edf489d2793f97dd3a56
+      internalID: -1092422949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_103
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 171
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770eb721ecc68874cbaeb656c0f5f96e
+      internalID: 1952340245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_104
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 173
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fca1c531dfa5942bfe0aca31a15324
+      internalID: 485774430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_105
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 177
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a11e0ae5c59784a9a372ab49461e7a
+      internalID: -326744425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_106
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 157
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0f5adb6b975c84897e49f2e8b67dd1
+      internalID: 1170701119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_107
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 169
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3fd5d942e444a46a395bf2e6a8a597
+      internalID: 1374324628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_108
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29058872e189af040b7270d8a0551575
+      internalID: -1369745074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_109
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 161
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01da09121920e764fb29d988a0058bfc
+      internalID: 327812544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 159
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492aca3dca73e7d4faa867e9362c2bf8
+      internalID: -1398956904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_111
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 159
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010424e5821303a4f82a47484c2f6cae
+      internalID: -400368529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_112
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a688373cefc9d884387f48e73aa781a9
+      internalID: 213651584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_113
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 145
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4903653fc5c6df641b328efa07119fbb
+      internalID: -827731899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_114
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6be445fc3e3e84d8ebb4b16f647a8a
+      internalID: 1011263298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_115
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff42a4df9743a434b982ffab9b6508ff
+      internalID: -628796804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_116
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed10d0ce9b42b534c89e22d01f2c0bf8
+      internalID: 1568885378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_117
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a63cd01bb8ac041b522147c1a3153d
+      internalID: -1444285118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_118
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b2bf3864cc3f44fa6d3634a2bd53c3
+      internalID: -1898591779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_119
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41c249c939b144429c00edd0e517cb1
+      internalID: -397705609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_120
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91168fe954645cf4dbf454e262fef3c8
+      internalID: 113523135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_121
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 145
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da19b910f81d0ba4f98438150e719230
+      internalID: 1163841597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_122
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 115
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24fe6d868aed8f41addfa50d639a747
+      internalID: -805449382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_123
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 115
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50081361d6b25f143ac78115e40191a4
+      internalID: 623161949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_124
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 117
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c587ad4988bf724d9dee1de21dc53e9
+      internalID: 1388568015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_125
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74debae5596aae641ae07e0cb3ae6a4a
+      internalID: -1671651568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_126
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 121
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c5429f25e246340978c8343c52de85
+      internalID: -1454381937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_127
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa68e2700685a5b4a9473877f72b2234
+      internalID: 280226278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_128
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edf114f56be5cb468530816e7e2c41b
+      internalID: -1106028163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_129
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ac1fa5936e19499093e7e01cb8207
+      internalID: -1019521738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_130
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb34e7e3fe814e4f9cc495a0b368e23
+      internalID: 762901700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_131
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4723c6e2e9167514ea181ba20844ee99
+      internalID: 1537473900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_132
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed74c7b128bc02e4981e6c6bd8373a7e
+      internalID: -1656841132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_133
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1483b05f2ab0e474eb48e5373947ab90
+      internalID: -387957014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_134
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0979c239b24657f40be90321f5371463
+      internalID: 1847274012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_135
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f34c2580dcc614b84c3a74fd6ec69d
+      internalID: -1055244349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_136
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 71
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b6102673e14b34eb6e9b6f39ea707c
+      internalID: -1189952321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_137
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 73
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0400e8254829d304d8d7377f1fff2a3c
+      internalID: -1426233516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_138
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 83
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e27068c99b56f43a99afd52f1ef094
+      internalID: -2130018540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_139
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd749c0d31f4a545bdffcb9088786fc
+      internalID: -1561306748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_140
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 83
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61006f5fcd59fc34699a574419894c39
+      internalID: -1253399731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_141
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 83
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf403e8d9f861c46a73227f6726ed0f
+      internalID: -2027653578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_142
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 83
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e197976278aa74a8e7c9f78f4d2f08
+      internalID: 972302908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_143
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 67
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468efb84817348f4c96cda1fc99bd68d
+      internalID: 718989724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: donkey_kong_vs_mario_sprite_sheet_without_backgroud_144
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 67
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1176604e8c9585a4ca7d55989386b56f
+      internalID: 1960083744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_114: 1011263298
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_144: 1960083744
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_23: -1442649426
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_108: -1369745074
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_7: 2123563457
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_78: -298884094
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_52: 1744762326
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_17: -1900082736
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_50: 1201647850
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_85: -1247925845
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_27: -632964063
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_91: 1169957612
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_44: -724202114
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_4: -166975274
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_90: 670027326
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_102: -1092422949
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_0: -2017917831
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_33: 430865384
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_66: 1529333274
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_55: -708205984
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_71: 1028845498
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_105: -326744425
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_122: -805449382
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_54: 1636566455
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_62: 15747147
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_60: -416966243
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_64: -1222648037
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_3: -333744741
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_118: -1898591779
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_126: -1454381937
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_137: -1426233516
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_5: 1133302326
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_16: -679223904
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_84: -1075590026
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_135: -1055244349
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_57: -1643741384
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_65: 328975667
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_32: 2102421491
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_24: 1556338393
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_94: -1471797831
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_83: 1350590387
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_140: -1253399731
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_74: -730220057
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_138: -2130018540
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_39: 1529785060
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_98: -2075645324
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_81: -196535215
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_59: 399189694
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_103: 1952340245
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_36: -1136068684
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_40: 947779862
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_15: 1637875669
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_104: 485774430
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_43: 1988353727
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_29: 68711182
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_12: 1350619601
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_58: -1566165206
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_2: -1030351294
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_80: 1478194959
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_132: -1656841132
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_129: -1019521738
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_88: 600404547
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_37: 860723306
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_92: -1151899292
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_75: -375869505
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_119: -397705609
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_111: -400368529
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_63: -413353612
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_30: 869173683
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_68: 1387529389
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_87: -1986663306
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_13: -1983991926
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_18: 798016362
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_128: -1106028163
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_127: 280226278
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_136: -1189952321
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_6: 880678408
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_28: 1566306567
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_21: 983734647
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_125: -1671651568
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_115: -628796804
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_134: 1847274012
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_47: -1724772602
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_19: -85867442
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_76: 1184535567
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_41: -734005638
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_8: -87218324
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_56: -494771424
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_95: 626247640
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_89: -1496642392
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_121: 1163841597
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_93: 1011411651
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_25: 1061311947
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_67: -1112541882
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_72: 2821557
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_86: 1915210808
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_100: 891907295
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_22: -1757451372
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_20: -907379403
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_49: 1888419811
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_73: -1073084691
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_53: -1930996032
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_82: 886070700
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_107: 1374324628
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_113: -827731899
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_42: -484589275
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_142: 972302908
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_45: -66180955
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_14: -49957607
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_34: 916454657
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_11: -379156419
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_61: -2022947549
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_51: -434494616
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_120: 113523135
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_96: -1766779089
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_130: 762901700
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_46: -1763107116
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_116: 1568885378
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_110: -1398956904
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_35: 1083958642
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_112: 213651584
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_117: -1444285118
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_133: -387957014
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_48: 1548608641
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_139: -1561306748
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_99: -462310063
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_1: -2107165424
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_131: 1537473900
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_10: 474653241
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_26: -348059940
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_38: 71486795
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_79: -578768307
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_31: -2125248100
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_70: -353252522
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_97: 277882957
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_77: -629663392
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_106: 1170701119
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_124: 1388568015
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_9: -220714858
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_109: 327812544
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_143: 718989724
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_141: -2027653578
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_123: 623161949
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_69: -463181612
+      donkey_kong_vs_mario_sprite_sheet_without_backgroud_101: 272596329
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
