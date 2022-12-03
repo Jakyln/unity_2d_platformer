@@ -5,10 +5,11 @@ using UnityEngine;
 public class MovePlayer : MonoBehaviour
 {
     public string runningAnimation = "RunningAnimation";
+    public string jumpingAnimation = "JumpingAnimation";
     Animator anim;
 
     private Rigidbody2D selfRb;
-    //private SpriteRenderer spriteR;
+    private SpriteRenderer spriteR;
 
     private bool moveLeft;
     private bool moveRight;
@@ -18,7 +19,7 @@ public class MovePlayer : MonoBehaviour
     public float speed = 5;
 
     //private Sprite[] sprites;
-    //private Sprite sprite1st;
+    private Sprite sprite1st;
    // Sprite[] loadedSprites;
 
     /*[SerializeField]
@@ -31,11 +32,11 @@ public class MovePlayer : MonoBehaviour
         //transform = GetComponent<Transform>;
         selfRb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        //spriteR = GetComponent<SpriteRenderer>();
+        spriteR = GetComponent<SpriteRenderer>();
         moveLeft = false;
         moveRight = false;
         moveUp = false;
-
+        sprite1st = spriteR.sprite;
         //sprites = Resources.LoadAll<Sprite>("m_Sprite");
         /*Debug.Log(sprites[0]);
         Debug.Log(sprites[1]);*/
@@ -129,6 +130,8 @@ public class MovePlayer : MonoBehaviour
         else if (moveUp)
         {
             //
+            anim.enabled = true;
+            anim.Play(jumpingAnimation);
             verticalMove = 6;
 
         }
@@ -137,7 +140,13 @@ public class MovePlayer : MonoBehaviour
         {
             horizontalMove = 0;
             anim.enabled = false;
-            //spriteR.sprite = sprites[0];
+            /*Debug.Log("selfRb.velocity.y : " + selfRb.velocity.y)
+            if(selfRb.velocity.y > 0)
+            {
+                spriteR.sprite = sprite1st;
+            }*/
+            // Jump animation  marche pas car moveUp est à true pendant une frame seulement, donc pas le temps d'afficher. Il faudrait pouvoir detecter quand il jump soit en l'air soit pas collision du sol en omettant les autres
+            spriteR.sprite = sprite1st;
         }
         selfRb.angularVelocity = 0f;
     }
