@@ -8,10 +8,21 @@ public class MovePlayer : MonoBehaviour
     Animator anim;
 
     private Rigidbody2D selfRb;
+    //private SpriteRenderer spriteR;
+
     private bool moveLeft;
     private bool moveRight;
+    private bool moveUp;
     private float horizontalMove;
+    private float verticalMove;
     public float speed = 5;
+
+    //private Sprite[] sprites;
+    //private Sprite sprite1st;
+   // Sprite[] loadedSprites;
+
+    /*[SerializeField]
+    int groundLayer;*/
     //private Transform transform;
 
     // Start is called before the first frame update
@@ -20,14 +31,25 @@ public class MovePlayer : MonoBehaviour
         //transform = GetComponent<Transform>;
         selfRb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        //spriteR = GetComponent<SpriteRenderer>();
         moveLeft = false;
         moveRight = false;
+        moveUp = false;
 
+        //sprites = Resources.LoadAll<Sprite>("m_Sprite");
+        /*Debug.Log(sprites[0]);
+        Debug.Log(sprites[1]);*/
+        //AssetDatabase.GetAssetPath(spriteR.sprite.GetInstanceID()).Replace(".png", "");
+
+        //loadedSprites = Resources.LoadAll("Sprites", typeof(Sprite));
+        //spriteR.sprite.GetInstanceID()
+        //sprite1st = spriteR.sprite.GetInstanceID().Replace(".png", "").Replace("Assets/Resources/", "")
+
+        //Debug.Log(sprites.Length);
 
         //On a freeze la rotation pour qu'il puisse rester dans la meme position, il faut maintenant adapter sa position pour qu'elle soit toujours parallele au sol
         selfRb.angularVelocity = 0f;
         //selfRb.freezeRotation = true;
-        Debug.Log("Scale = " + transform.localScale.x);
     }
 
     // Update is called once per frame
@@ -35,7 +57,7 @@ public class MovePlayer : MonoBehaviour
     {
         MovementPlayer();
     }
-
+    
 
     public void PointerDownLeft()
     {
@@ -45,7 +67,7 @@ public class MovePlayer : MonoBehaviour
 
     public void PointerUpLeft()
     {
-        Debug.Log("PointerUpLeft");
+        //Debug.Log("PointerUpLeft");
         moveLeft = false;
     }
 
@@ -62,12 +84,26 @@ public class MovePlayer : MonoBehaviour
         moveRight = false;
     }
 
+    public void PointerClickJump()
+    {
+        moveUp = true;
+        Debug.Log("PointerDownJump");
+    }
+
+    public void PointerUpJump()
+    {
+        Debug.Log("PointerUpJump");
+        moveUp = false;
+    }
+
     private void MovementPlayer()
     {
         //Debug.Log("MovementPlayer");
         //moveRight = false;
         float horizontalScale = transform.localScale.x;
-        Debug.Log("moveLeft : " + moveLeft + " - moveRight : "  + moveRight);
+        //Debug.Log("moveLeft : " + moveLeft + " - moveRight : "  + moveRight);
+        Debug.Log("moveUp : " + moveUp);
+
         if (moveLeft)
         {
             if(horizontalScale < 0)
@@ -90,23 +126,41 @@ public class MovePlayer : MonoBehaviour
             horizontalMove = speed;
             anim.Play(runningAnimation);
         }
+        else if (moveUp)
+        {
+            //
+            verticalMove = 6;
+
+        }
 
         else
         {
             horizontalMove = 0;
             anim.enabled = false;
+            //spriteR.sprite = sprites[0];
         }
         selfRb.angularVelocity = 0f;
     }
 
     private void FixedUpdate()
     {
+
         //Debug.Log("FixedUpdate");
-        selfRb.velocity = new Vector2(horizontalMove, selfRb.velocity.y);
+        if (moveUp /*&& selfRb.velocity.y > 0*/)
+        {
+            /*if (selfRb.IsTouchingLayers(groundLayer))
+            {
+                selfRb.AddForce(new Vector2(0, verticalMove));
+            }*/
+            //selfRb.AddForce(new Vector2(0, verticalMove));
+            selfRb.velocity = new Vector2(horizontalMove, verticalMove);
+
+            moveUp = false;
+        }
+        else
+        {
+            selfRb.velocity = new Vector2(horizontalMove, selfRb.velocity.y);
+        }
     }
 
-    public void CallThisFromButton()
-    {
-        anim.Play(runningAnimation);
-    }
 }
