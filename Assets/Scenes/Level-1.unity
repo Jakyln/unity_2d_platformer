@@ -618,6 +618,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &360873717
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360873711}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0d59e5824612a8740b79a01b27ce835d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &378957072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1684,6 +1704,8 @@ GameObject:
   - component: {fileID: 1402704393}
   - component: {fileID: 1402704392}
   - component: {fileID: 1402704391}
+  - component: {fileID: 1402704395}
+  - component: {fileID: 1402704394}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1757,6 +1779,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1402704394
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402704390}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.3, y: 0.3}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &1402704395
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402704390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7f1e3c3fa0f0ecf4f90451b86f9af96b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1431374293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2498,6 +2592,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 102699006293119026, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.26383173
+      objectReference: {fileID: 0}
+    - target: {fileID: 102699006293119026, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_Size.y
+      value: 0.34457302
+      objectReference: {fileID: 0}
+    - target: {fileID: 102699006293119026, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0018934235
+      objectReference: {fileID: 0}
+    - target: {fileID: 102699006293119026, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0016666949
+      objectReference: {fileID: 0}
+    - target: {fileID: 102699006293119026, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 102699006293119026, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 333315440787673258, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_Name
       value: Mario
@@ -2508,19 +2626,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1992195243131547974, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1326646
+      value: 2.5340497
       objectReference: {fileID: 0}
     - target: {fileID: 1992195243131547974, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9122242
+      value: 2.5596316
       objectReference: {fileID: 0}
     - target: {fileID: 1992195243131547974, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.41
+      value: 0.299
       objectReference: {fileID: 0}
     - target: {fileID: 1992195243131547974, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.73
+      value: 4.646
       objectReference: {fileID: 0}
     - target: {fileID: 1992195243131547974, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2554,6 +2672,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4275269583027830984, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2017917831, guid: 39f5a574ec114da4ead80ddaa3871541, type: 3}
     - target: {fileID: 4275269583027830984, guid: e13137f9d66973c4184f272ab5e350f3, type: 3}
       propertyPath: m_Color.b
       value: 0.6767104
