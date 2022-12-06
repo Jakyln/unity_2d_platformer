@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Tonneau : MonoBehaviour
 {
-    [SerializeField]
-    public GameObject explosion;
+    /*[SerializeField]
+    public GameObject explosion;*/
     [SerializeField]
     public GameObject entityCollision;
-    void OnCollisionEnter(Collision collision)
+    
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "SquareCollide")
+        if (collision.gameObject.name == entityCollision.name)
         {
-            Instantiate(explosion, transform.position, transform.rotation);
+            //Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-        Debug.Log(collision.gameObject.name);
     }
 }
