@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 60538269}
   - component: {fileID: 60538268}
   - component: {fileID: 60538267}
+  - component: {fileID: 60538270}
   m_Layer: 0
   m_Name: donkey kong sprite sheet without backgroud_0
   m_TagString: Untagged
@@ -228,6 +229,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &60538270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60538266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0360b662cca0a345b901e3e12da7c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  spawnPoints: {x: 1.5, y: 2.6, z: 0}
+  startSpeed: 6
+  startRight: 0
+  spawnTarget: {fileID: 2916735713555578177, guid: 47c7b2a0dac5a9c45821098ab87fdf5c, type: 3}
 --- !u!1001 &76718682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2105,7 +2125,6 @@ GameObject:
   - component: {fileID: 1431374296}
   - component: {fileID: 1431374295}
   - component: {fileID: 1431374294}
-  - component: {fileID: 1431374298}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2197,26 +2216,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!95 &1431374298
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431374293}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8a447c1d5f4e195418d2187b0ff062c3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1468114521
 PrefabInstance:
   m_ObjectHideFlags: 0
