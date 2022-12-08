@@ -88,12 +88,12 @@ public class MovePlayer : MonoBehaviour
     public void PointerClickJump()
     {
         moveUp = true;
-        Debug.Log("PointerDownJump");
+        //Debug.Log("PointerDownJump");
     }
 
     public void PointerUpJump()
     {
-        Debug.Log("PointerUpJump");
+        //Debug.Log("PointerUpJump");
         moveUp = false;
     }
 
@@ -103,13 +103,13 @@ public class MovePlayer : MonoBehaviour
         //moveRight = false;
         float horizontalScale = transform.localScale.x;
         //Debug.Log("moveLeft : " + moveLeft + " - moveRight : "  + moveRight);
-        Debug.Log("moveUp : " + moveUp);
+        //Debug.Log("moveUp : " + moveUp);
 
         if (moveLeft)
         {
             if(horizontalScale < 0)
             {
-                Debug.Log("Hello Lefft");
+                //Debug.Log("Hello Lefft");
                 transform.localScale = new Vector2(-horizontalScale, transform.localScale.y);
             }
             anim.enabled = true;
@@ -139,14 +139,17 @@ public class MovePlayer : MonoBehaviour
         else
         {
             horizontalMove = 0;
-            anim.enabled = false;
+            if (!moveUp && selfRb.IsTouchingLayers(1))
+            {
+                anim.enabled = false;
+                spriteR.sprite = sprite1st;
+            }
             /*Debug.Log("selfRb.velocity.y : " + selfRb.velocity.y)
             if(selfRb.velocity.y > 0)
             {
                 spriteR.sprite = sprite1st;
             }*/
             // Jump animation  marche pas car moveUp est à true pendant une frame seulement, donc pas le temps d'afficher. Il faudrait pouvoir detecter quand il jump soit en l'air soit pas collision du sol en omettant les autres
-            spriteR.sprite = sprite1st;
         }
         selfRb.angularVelocity = 0f;
     }
@@ -155,19 +158,27 @@ public class MovePlayer : MonoBehaviour
     {
 
         //Debug.Log("FixedUpdate");
-        if (moveUp /*&& selfRb.velocity.y > 0*/)
+        if (moveUp && selfRb.IsTouchingLayers(1))
         {
-            /*if (selfRb.IsTouchingLayers(groundLayer))
-            {
-                selfRb.AddForce(new Vector2(0, verticalMove));
-            }*/
-            //selfRb.AddForce(new Vector2(0, verticalMove));
             selfRb.velocity = new Vector2(horizontalMove, verticalMove);
 
-            moveUp = false;
+/*            if (selfRb.IsTouchingLayers(1))
+            {
+                Debug.Log("Il touche !");
+                //selfRb.AddForce(new Vector2(0, verticalMove));
+                selfRb.velocity = new Vector2(horizontalMove, verticalMove);
+            }
+            else
+            {
+                moveUp = false;
+            }*/
+            //selfRb.AddForce(new Vector2(0, verticalMove));
+            //selfRb.velocity = new Vector2(horizontalMove, verticalMove);
+
         }
         else
         {
+            moveUp = false;
             selfRb.velocity = new Vector2(horizontalMove, selfRb.velocity.y);
         }
     }
