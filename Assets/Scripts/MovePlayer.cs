@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class MovePlayer : MonoBehaviour
 {
     public string runningAnimation = "RunningAnimation";
     public string jumpingAnimation = "JumpingAnimation";
+    public string playerHit = "playerHit";
     Animator anim;
 
     private Rigidbody2D selfRb;
@@ -16,10 +18,22 @@ public class MovePlayer : MonoBehaviour
     private bool moveUp;
     private float horizontalMove;
     private float verticalMove;
-    public float speed = 5;
+    public float speed = 3;
+
+    [SerializeField]
+    public Sprite emptySprite;
+
+    [SerializeField]
+    public GameObject entityCollision;
 
     //private Sprite[] sprites;
     private Sprite sprite1st;
+
+    private int lastCalculatedFrameCount = 0;
+
+
+
+    private Boolean isTonneauCollision = false;
    // Sprite[] loadedSprites;
 
     /*[SerializeField]
@@ -37,6 +51,11 @@ public class MovePlayer : MonoBehaviour
         moveRight = false;
         moveUp = false;
         sprite1st = spriteR.sprite;
+
+
+        //entityCollision.name = "tonneau(Clone)";
+
+
         //sprites = Resources.LoadAll<Sprite>("m_Sprite");
         /*Debug.Log(sprites[0]);
         Debug.Log(sprites[1]);*/
@@ -56,6 +75,17 @@ public class MovePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isTonneauCollision)
+        {
+            Debug.Log("hrdhz");
+            //InvokeRepeating("playerHit", 2.0f, 0.3f);
+            //playerHit();
+            anim.enabled = false;
+            anim.enabled = true;
+            anim.Play("playerHit");
+            anim.enabled = false;
+            isTonneauCollision = false;
+        }
         MovementPlayer();
     }
     
@@ -142,7 +172,15 @@ public class MovePlayer : MonoBehaviour
             if (!moveUp && selfRb.IsTouchingLayers(1))
             {
                 anim.enabled = false;
-                spriteR.sprite = sprite1st;
+                if (isTonneauCollision)
+                {
+/*                    spriteR.sprite = null;
+                    isTonneauCollision = false;*/
+                }
+                else
+                {
+                    spriteR.sprite = sprite1st;
+                }
             }
             /*Debug.Log("selfRb.velocity.y : " + selfRb.velocity.y)
             if(selfRb.velocity.y > 0)
@@ -154,24 +192,51 @@ public class MovePlayer : MonoBehaviour
         selfRb.angularVelocity = 0f;
     }
 
-    private void FixedUpdate()
+
+/*    private void playerHit()
     {
-
-        //Debug.Log("FixedUpdate");
-        if (moveUp && selfRb.IsTouchingLayers(1))
+        Debug.Log("Helloooooooooooooooooooooooooo!");
+        for(int i = 0; i < 50; i++)
         {
-            selfRb.velocity = new Vector2(horizontalMove, verticalMove);
-
-/*            if (selfRb.IsTouchingLayers(1))
+*//*            if(i % 2 == 0)
             {
-                Debug.Log("Il touche !");
-                //selfRb.AddForce(new Vector2(0, verticalMove));
-                selfRb.velocity = new Vector2(horizontalMove, verticalMove);
+                spriteR.sprite = null;
             }
             else
             {
-                moveUp = false;
-            }*/
+                //spriteR.sprite = sprite1st;
+            }*//*
+            spriteR.sprite = null;
+
+        }
+        spriteR.sprite = sprite1st;
+        isTonneauCollision = false;
+    }*/
+    private void FixedUpdate()
+
+    {
+
+        if (isTonneauCollision)
+        {
+            //spriteR.sprite = null;
+            //spriteR.sprite = emptySprite;
+        }
+        //Debug.Log("FixedUpdate");
+        if (moveUp && selfRb.IsTouchingLayers(1))
+        {
+            selfRb.velocity = new Vector2(0, verticalMove);
+            //selfRb.AddForce(new Vector2(0, 10));
+
+            /*            if (selfRb.IsTouchingLayers(1))
+                        {
+                            Debug.Log("Il touche !");
+                            selfRb.AddForce(new Vector2(0, verticalMove));
+                            selfRb.velocity = new Vector2(horizontalMove, verticalMove);
+                        }
+                        else
+                        {
+                            moveUp = false;
+                        }*/
             //selfRb.AddForce(new Vector2(0, verticalMove));
             //selfRb.velocity = new Vector2(horizontalMove, verticalMove);
 
@@ -179,7 +244,30 @@ public class MovePlayer : MonoBehaviour
         else
         {
             moveUp = false;
+            //selfRb.AddForce(new Vector2(horizontalMove, selfRb.velocity.y));
             selfRb.velocity = new Vector2(horizontalMove, selfRb.velocity.y);
+        }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+/*        Debug.Log("gameObject.name : " + collision.gameObject.GetInstanceID());
+        Debug.Log("entityCollision.name : " + entityCollision.GetInstanceID());
+        Debug.Log("test condition : " + GameObject.ReferenceEquals(collision.gameObject, gameObject));
+*/
+        if (collision.gameObject.name.Contains("Clone")){
+            //Debug.Log("helloo!!!!!!!!!!!!!!!!!!!!!!!!!");
+            isTonneauCollision = true;
+            //spriteR.sprite = null;
+
+        }
+        if (collision.gameObject.name == entityCollision.name)
+        {
+            Debug.Log("helloo!!!!");
+            //Instantiate(explosion, transform.position, transform.rotation);
+            isTonneauCollision = true;
+            //spriteR.sprite = null;
         }
     }
 
