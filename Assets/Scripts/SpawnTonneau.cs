@@ -39,5 +39,6 @@ public class SpawnTonneau : MonoBehaviour
     {
         Rigidbody2D rb = Instantiate(spawnTarget, spawnPoints, Quaternion.identity);
         rb.velocity = new Vector2((startRight ? 1 : -1) * startSpeed, 1.0f);
+        rb.transform.SetParent(this.transform);
     }
 }
