@@ -7,7 +7,7 @@ public class MovePlayer : MonoBehaviour
 {
     public string runningAnimation = "RunningAnimation";
     public string jumpingAnimation = "JumpingAnimation";
-    public string playerHit = "playerHit";
+    public string playerHitAnimation = "PlayerHitAnimation";
     Animator anim;
 
     private Rigidbody2D selfRb;
@@ -75,17 +75,7 @@ public class MovePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isTonneauCollision)
-        {
-            Debug.Log("hrdhz");
-            //InvokeRepeating("playerHit", 2.0f, 0.3f);
-            //playerHit();
-            anim.enabled = false;
-            anim.enabled = true;
-            anim.Play("playerHit");
-            anim.enabled = false;
-            isTonneauCollision = false;
-        }
+
         MovementPlayer();
     }
     
@@ -171,7 +161,7 @@ public class MovePlayer : MonoBehaviour
             horizontalMove = 0;
             if (!moveUp && selfRb.IsTouchingLayers(1))
             {
-                anim.enabled = false;
+                //anim.enabled = false;
                 if (isTonneauCollision)
                 {
 /*                    spriteR.sprite = null;
@@ -179,6 +169,7 @@ public class MovePlayer : MonoBehaviour
                 }
                 else
                 {
+                    anim.enabled = false;
                     spriteR.sprite = sprite1st;
                 }
             }
@@ -193,25 +184,36 @@ public class MovePlayer : MonoBehaviour
     }
 
 
-/*    private void playerHit()
+    private void playerHit()
     {
-        Debug.Log("Helloooooooooooooooooooooooooo!");
+/*        Debug.Log("Helloooooooooooooooooooooooooo!");
         for(int i = 0; i < 50; i++)
         {
-*//*            if(i % 2 == 0)
+            if(i % 2 == 0)
             {
                 spriteR.sprite = null;
             }
             else
             {
                 //spriteR.sprite = sprite1st;
-            }*//*
+            }
             spriteR.sprite = null;
 
         }
         spriteR.sprite = sprite1st;
-        isTonneauCollision = false;
-    }*/
+        isTonneauCollision = false;*/
+        if (isTonneauCollision)
+        {
+            //Debug.Log("hrdhz");
+            //InvokeRepeating("playerHit", 2.0f, 0.3f);
+            //playerHit();
+            //anim.enabled = false;
+            anim.enabled = true;
+            anim.Play(playerHitAnimation);
+            //anim.enabled = false;
+            //isTonneauCollision = false;
+        }
+    }
     private void FixedUpdate()
 
     {
@@ -259,6 +261,7 @@ public class MovePlayer : MonoBehaviour
         if (collision.gameObject.name.Contains("Clone")){
             //Debug.Log("helloo!!!!!!!!!!!!!!!!!!!!!!!!!");
             isTonneauCollision = true;
+            playerHit();
             //spriteR.sprite = null;
 
         }
