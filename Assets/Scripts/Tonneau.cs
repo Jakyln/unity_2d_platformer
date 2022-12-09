@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Tonneau : MonoBehaviour
@@ -23,6 +24,7 @@ public class Tonneau : MonoBehaviour
             //score = score - 1;
             //PlayerPrefs.SetString(" ", score.ToString());
             //this.updateScore();
+            SceneManager.LoadScene("loose");
         }
     }
 
@@ -33,7 +35,7 @@ public class Tonneau : MonoBehaviour
         if (positionTonneau.y <= -3)
         {
             Destroy(gameObject);
-            score = score +1;
+            score ++;
             Debug.Log(score);
 
             PlayerPrefs.SetString("score", score.ToString());
