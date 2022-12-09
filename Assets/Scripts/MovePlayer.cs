@@ -127,6 +127,7 @@ public class MovePlayer : MonoBehaviour
 
         if (moveLeft)
         {
+            anim.enabled = false;
             if(horizontalScale < 0)
             {
                 //Debug.Log("Hello Lefft");
@@ -139,6 +140,7 @@ public class MovePlayer : MonoBehaviour
 
         else if (moveRight)
         {
+            anim.enabled = false;
             if (horizontalScale > 0)
             {
                 transform.localScale = new Vector2(-horizontalScale, transform.localScale.y);
@@ -150,6 +152,7 @@ public class MovePlayer : MonoBehaviour
         else if (moveUp)
         {
             //
+            anim.enabled = false;
             anim.enabled = true;
             anim.Play(jumpingAnimation);
             verticalMove = 6;
@@ -164,8 +167,18 @@ public class MovePlayer : MonoBehaviour
                 //anim.enabled = false;
                 if (isTonneauCollision)
                 {
+                    playerHit();
 /*                    spriteR.sprite = null;
                     isTonneauCollision = false;*/
+                    //l'animation de player hit est en train de play
+
+                   //if (anim.GetCurrentAnimatorStateInfo(0).length > anim.GetCurrentAnimatorStateInfo(0).normalizedTime && anim.GetCurrentAnimatorStateInfo(0).IsName(playerHitAnimation))
+                   if (/*anim.GetCurrentAnimatorStateInfo(0).length >= anim.GetCurrentAnimatorStateInfo(0).normalizedTime &&*/ !anim.GetCurrentAnimatorStateInfo(0).IsName(playerHitAnimation))
+                    {
+                        //anim.enabled = false;
+                        Debug.Log("playyyy");
+                        //isTonneauCollision = false;
+                    };
                 }
                 else
                 {
@@ -265,13 +278,13 @@ public class MovePlayer : MonoBehaviour
             //spriteR.sprite = null;
 
         }
-        if (collision.gameObject.name == entityCollision.name)
+
+        if (/*anim.GetCurrentAnimatorStateInfo(0).length >= anim.GetCurrentAnimatorStateInfo(0).normalizedTime*/ isTonneauCollision && anim.GetCurrentAnimatorStateInfo(0).IsName(playerHitAnimation))
         {
-            Debug.Log("helloo!!!!");
-            //Instantiate(explosion, transform.position, transform.rotation);
-            isTonneauCollision = true;
-            //spriteR.sprite = null;
-        }
+            //anim.enabled = false;
+            Debug.Log("playyyy");
+            isTonneauCollision = false;
+        };
     }
 
 }
