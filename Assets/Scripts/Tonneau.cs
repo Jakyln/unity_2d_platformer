@@ -12,8 +12,7 @@ public class Tonneau : MonoBehaviour
     [SerializeField]
     public GameObject entityCollision;
     private int score = 0;
-    [SerializeField]
-    public Text afficherScore;
+    private string afficherScore;
     
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -21,39 +20,38 @@ public class Tonneau : MonoBehaviour
         {
             //Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
-            score = score - 1;
-            PlayerPrefs.SetString(" ", score.ToString());
-            this.updateScore();
+            //score = score - 1;
+            //PlayerPrefs.SetString(" ", score.ToString());
+            //this.updateScore();
         }
     }
 
     public void Update()
     {
         Vector3 positionTonneau = gameObject.transform.position;
-        Vector3 positionMario = entityCollision.transform.position;
-
-
 
         if (positionTonneau.y <= -3)
         {
             Destroy(gameObject);
-            score = score + 1;
-            //afficherScore = score.ToString();
+            score = score +1;
+            Debug.Log(score);
+
+            PlayerPrefs.SetString("score", score.ToString());
             this.updateScore();
-        }
-
-        if (positionTonneau.y < positionMario.y)
-        {
-
         }
     }
 
     // ReSharper disable Unity.PerformanceAnalysis
     private void updateScore()
     {
-        Debug.Log("test :",GameObject.Find("score"));
-        Debug.Log("test :",GameObject.Find("afficherScore"));
-        
-        
+        afficherScore = GameObject.Find("txt_score").GetComponent<TextMeshProUGUI>().text =
+            "Score : " + PlayerPrefs.GetString("score");
+        int meilleurScore = PlayerPrefs.GetInt("best_score");
+        if (meilleurScore < score)
+        {
+            PlayerPrefs.SetInt("meilleurScore", score);
+        }
+
+
     }
 }
