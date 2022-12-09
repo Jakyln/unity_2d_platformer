@@ -7,9 +7,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/audioManager.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670422262624</updated>
       <workItem from="1670422332356" duration="913000" />
-      <workItem from="1670524490998" duration="8930000" />
+      <workItem from="1670524490998" duration="9092000" />
+      <workItem from="1670591076171" duration="1932000" />
     </task>
     <servers />
   </component>
