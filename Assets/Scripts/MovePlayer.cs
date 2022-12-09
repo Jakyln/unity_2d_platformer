@@ -79,8 +79,10 @@ public class MovePlayer : MonoBehaviour
 
         if (moveLeft)
         {
+            //Si mario est dans la direction de droite
             if(horizontalScale < 0)
             {
+                //On flip le sprite
                 transform.localScale = new Vector2(-horizontalScale, transform.localScale.y);
             }
             anim.enabled = true;
@@ -90,8 +92,10 @@ public class MovePlayer : MonoBehaviour
 
         else if (moveRight)
         {
+            //Si mario est dans la direction de gauche
             if (horizontalScale > 0)
             {
+                //On flip le sprite
                 transform.localScale = new Vector2(-horizontalScale, transform.localScale.y);
             }
             anim.enabled = true;
