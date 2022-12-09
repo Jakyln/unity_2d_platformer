@@ -88,12 +88,12 @@ public class MovePlayer : MonoBehaviour
     public void PointerClickJump()
     {
         moveUp = true;
-        Debug.Log("PointerDownJump");
+        //Debug.Log("PointerDownJump");
     }
 
     public void PointerUpJump()
     {
-        Debug.Log("PointerUpJump");
+        //Debug.Log("PointerUpJump");
         moveUp = false;
     }
 
@@ -103,13 +103,13 @@ public class MovePlayer : MonoBehaviour
         //moveRight = false;
         float horizontalScale = transform.localScale.x;
         //Debug.Log("moveLeft : " + moveLeft + " - moveRight : "  + moveRight);
-        Debug.Log("moveUp : " + moveUp);
+        //Debug.Log("moveUp : " + moveUp);
 
         if (moveLeft)
         {
             if(horizontalScale < 0)
             {
-                Debug.Log("Hello Lefft");
+                //Debug.Log("Hello Lefft");
                 transform.localScale = new Vector2(-horizontalScale, transform.localScale.y);
             }
             anim.enabled = true;
@@ -145,7 +145,7 @@ public class MovePlayer : MonoBehaviour
             {
                 spriteR.sprite = sprite1st;
             }*/
-            // Jump animation  marche pas car moveUp est à true pendant une frame seulement, donc pas le temps d'afficher. Il faudrait pouvoir detecter quand il jump soit en l'air soit pas collision du sol en omettant les autres
+            // Jump animation  marche pas car moveUp est ï¿½ true pendant une frame seulement, donc pas le temps d'afficher. Il faudrait pouvoir detecter quand il jump soit en l'air soit pas collision du sol en omettant les autres
             spriteR.sprite = sprite1st;
         }
         selfRb.angularVelocity = 0f;
